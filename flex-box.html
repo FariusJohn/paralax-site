@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>box-flex</title>
+  <style media="screen">
+    body {
+      margin: 0px;
+      font-family: 'Dancing Script', cursive;
+      font-size: 1.2em;
+    }
+    nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 0;
+      height: 50px;
+      text-decoration: none;
+    }
+    #navbar {
+      height: 75px;
+      width: 100%;
+      background-color: royalblue;
+    }
+
+    #header {
+      height: 400px;
+      width: 100%;
+      background-color: lightskyblue;
+    }
+
+    #main {
+      background-color: grey;
+      margin: 75px 100px 75px 100px;
+    }
+
+    #section {
+      height: 500px;
+      background-color: grey;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    #preFooter {
+      height: 40px;
+      background-color: silver;
+      width: 100%;
+    }
+
+    #footer {
+      display: flex;
+      height: 100px;
+      width: 100%;
+      background-color: black;
+    }
+
+    .paragraph {
+      height: 200px;
+      background-color: khaki;
+      margin-top: 0px;
+      margin-bottom: 75px;
+    }
+
+    .box1 {
+      background-color: tomato;
+      height: 400px;
+      width: 48%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .box2 {
+      background-color: tomato;
+      height: 400px;
+      width: 48%;
+      position: relative;
+      overflow: hidden;
+  </style>
+</head>
+
+<body>
+  <nav id="navbar">
+    <ul>
+      <a href="index.html">Home</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="contact.html">Contact</a>
+    </ul>
+  </nav>
+  <header id="header"></header>
+  <section id="main">
+    <p class="paragraph"></p>
+    <section id="section">
+      <div class="box1">
+      </div>
+      <div class="box2">
+      </div>
+    </section>
+  </section>
+  <div id="preFooter">
+
+  </div>
+  <footer id="footer"></footer>
+</body>
+
+</html>

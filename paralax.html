@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style media="screen">
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #6fe7dd;
+      font-size: 100%;
+      width: 100%;
+      height: 5%;
+    }
+
+    nav ul {
+      padding: 10px;
+      margin: 0px;
+      list-style: none;
+      font-size: 25px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    nav a {
+      color: black;
+    }
+
+    .parallax1 {
+      background-image: url(images/575460-The_Witcher_3_Wild_Hunt-Velen-The_Witcher.jpg);
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .parallax2 {
+      background-image: url(images/the-witcher-3-wild-hunt-velen-derevo-viselnikov.jpg);
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .parmain {
+      height: auto;
+      background: #2b2e4a;
+      background-color: #ffcfdf;
+      font-size: 36px;
+    }
+
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f6416c;
+      color: black;
+      height: 5%;
+      margin-top: 0px;
+    }
+
+    footer h6 {
+      margin: 0;
+    }
+
+    @media only screen and (max-device-width: 945px) {
+      .parallax1 {
+        background-attachment: scroll;
+      }
+
+      .parallax2 {
+        background-attachment: scroll;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="flex-box.html">Responsive</a></li>
+    </ul>
+  </nav>
+  <div class="parallax1"></div>
+  <div class="parmain">
+    Velen, also called No Man's Land, is a province situated in northern Temeria, north of its capital Gors Velen.
+The former province has become a war-torn swampland under Nilfgaardian occupation with borders close to the cities of Novigrad and Oxenfurt.
+It's one of the major regions of the game, and its swamps with dense forests represent dark and mysterious elements of the plot.
+In the depopulated wastes of No Man's Land one often runs across armed men of all stripes - mercenaries, soldiers from the disbanded Temerian legions, marauders, and common bandits.
+
+  </div>
+  <div class="parallax2"></div>
+
+  <footer>
+    <h6>© 2020 - Personal Site - Volodymyr Cherpak. </h6>
+  </footer>
+
+</body>
+
+</html>

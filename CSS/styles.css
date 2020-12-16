@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  flex-direction: column;
+  color: #1c2b2d;
+  background-color: #f3bad6;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+strong {
+  color: #150485;
+  color: #7579e7;
+}
+
+h1 {
+  color: #0f4c75;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h3 {
+  color: #0f4c75;
+  line-height: 150%;
+
+}
+
+h2 {
+  color: #0f4c75;
+  text-decoration: green wavy underline;
+}
+
+
+img:hover {
+  background-color: blue;
+}
+
+a:hover {
+  background-color: #c62a88;
+}
+
+form {
+  background-image: repeating-linear-gradient(#f69d3c, #3f87a6);
+  background-size: 14%;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: #8785a2;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #08d9d6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff2e63;
+  height: 10%;
+  margin-top: auto;
+}
+/*****CLASS SELECTORS *****/
+.picture {
+  text-align: center;
+}
+
+.redh3 {
+  color: red;
+  border-color: red;
+}
+
+.blueborder {
+  color: blue;
+  border-color: blue;
+}
+
+.greenh3 {
+  color: green;
+  border-color: green;
+}
+
+.blackh4 {
+  color: black;
+}
+
+.blueh1 {
+  color: blue;
+}
+
+#mainheading {
+  color: white;
+}
+
+#dotted {
+  border-top-style: dotted;
+}
+
+#double {
+  border-top-style: inset;
+}
+
+.cambria {
+  font-family: Cambria, serif;
+}
+
+.georgia {
+  font-family: Georgia, serif;
+}
